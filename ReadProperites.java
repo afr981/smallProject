@@ -1,4 +1,3 @@
-package com.buongiorno.utils;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -12,7 +11,7 @@ public class ReadProperites {
 
 		Properties config = new Properties();
 
-		config.load(this.getClass().getResourceAsStream("/smal_project.properties"));
+		config.load(this.getClass().getResourceAsStream("/small_project.properties"));
 		mensaje = config.getProperty("website");
 		
 	}
